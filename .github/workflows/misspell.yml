@@ -10,9 +10,9 @@ jobs:
       - name: Check out code.
         uses: actions/checkout@v1
       - name: misspell
-        uses: denhamparry/action-misspell@d4cd223a046b8f932bbf74ec96afe43fe9959304
+        uses: denhamparry/action-misspell@master
         with:
           github_token: ${{ secrets.github_token }}
           locale: "UK"
           reporter: github-check
-          ignore: ""
+          ignore: "armor"
