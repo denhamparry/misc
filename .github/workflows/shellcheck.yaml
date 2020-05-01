@@ -2,7 +2,7 @@ name: Shellcheck
 on: [pull_request]
 jobs:
   shellcheck-sh:
-    name: "Shellcheck .sh"
+    name: "shellcheck .sh"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
