@@ -15,4 +15,4 @@ jobs:
           github_token: ${{ secrets.github_token }}
           locale: "UK"
           reporter: github-check
-          ignore: "armor,bump"
+          ignore: ""
