@@ -1,5 +1,7 @@
 name: misspell
-on: [pull_request]
+
+on: [push,pull_request]
+
 jobs:
   misspell:
     name: runner / misspell
