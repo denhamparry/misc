@@ -4,7 +4,7 @@
 
 uname -mrs
 
-# Avaialble Kernels
+# Available Kernels
 
 # dpkg --list | grep linux-image
 
