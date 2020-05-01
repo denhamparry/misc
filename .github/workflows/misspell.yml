@@ -10,7 +10,7 @@ jobs:
       - name: Check out code.
         uses: actions/checkout@v1
       - name: misspell
-        uses: denhamparry/action-misspell@v1
+        uses: denhamparry/action-misspell@2000ccffa5e4f41c46e26291aea66679b52f991c
         with:
           github_token: ${{ secrets.github_token }}
           locale: "UK"
