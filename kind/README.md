@@ -18,7 +18,7 @@ $ GO111MODULE="on" go get sigs.k8s.io/kind@v0.8.0
 ### Basic
 
 ```bash
-$ kind create cluster
+$ kind create cluster --name kind-example
 $ kubectl cluster-info --context kind-kind
 ```
 
@@ -27,3 +27,9 @@ $ kubectl cluster-info --context kind-kind
 > Good for testing deployments / taints etc
 
 kind create cluster --config=config/nodes.yaml
+
+## Delete a cluster
+
+```bash
+$ kind delete cluster --name kind-example
+```
