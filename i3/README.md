@@ -31,3 +31,22 @@ $ sudo apt install i3
 ```bash
 $ setxkbmap gb
 ```
+
+## Reset config file
+
+`i3-config-wizard`
+
+## Setup media keys
+
+[Media key bindings](https://faq.i3wm.org/question/3747/enabling-multimedia-keys/?answer=3759#post-id-3759)
+
+## Todo
+
+- I3 not working when only using external monitor
+  - Install `xrandr`
+  - 
+- Autolock when screen is closed
+
+## References
+
+- [How to Rice your desktop](https://www.youtube.com/watch?v=ARKIwOlazKI)
